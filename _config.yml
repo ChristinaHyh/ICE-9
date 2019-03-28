@@ -1,0 +1,98 @@
+# Site settings 配置站点
+title: 'ICE-9'
+description: 'VENI VIDI VICI'
+keyword: 'ICE-9,huangyahui, Christina'
+url: 'http://hyahui.com' # your host
+
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  about: '/about.html'
+  tags: '/tags.html'
+
+# Footer
+footer:
+  since: 2019
+
+# Author 配置博主信息
+author: 'Christina'
+nickname: 'Christina'
+bio: 'To Be a MultiPotentialite'
+avatar: '/assets/img/avatar.jpg'
+
+# Search
+search: true
+
+# Night mode
+nightMode: false
+
+# Comments 评论功能
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  
+valine_comment:
+    enable: true
+    leancloud_appid: yI9Ndj2tiyrW3xhKo0crwfCb-gzGzoHsz
+    leancloud_appkey: VdUCENaCsQsT0qBJV9ilxbX0
+    placeholder: "Ahoy!"
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: false
+
+# Share
+social-share: false
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  # weibo: '//weibo.com/'
+  # instagram: '//www.instagram.com/'
+  # github: '//github.com/'
+  facebook: '//www.facebook.com/christina.hyh'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b0c0e2c48dc71a72a702be17f906bb58
+               
+
+# Google Analytics
+ga_track_id: 'UA-136867817-1'            # Format: UA-xxxxxx-xx
+ga_domain: hyahui.com               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+# Build settings
+paginate: 3
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
