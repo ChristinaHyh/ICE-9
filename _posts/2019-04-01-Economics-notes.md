@@ -15,10 +15,13 @@ tags: READER
 
 思考：经济学规律不起作用的例子？
 
-<font color=#ffffff>①没有人的地方</font>
-<font color=#ffffff>②物质无限丰富的社会</font>
-<font color=#ffffff>③儿童的世界？</font>
-<font color=#ffffff>……</font>
+<span style="color:#ffffff">①没有人的地方</span>
+
+<span style="color:#ffffff">②物质无限丰富的社会</span>
+
+<span style="color:#ffffff">③儿童的世界？</span>
+
+<span style="color:#ffffff">……</span>
 
 **2.当我们讨论公正的问题时，讨论的是什么？**
 
@@ -26,9 +29,11 @@ tags: READER
 
 思考：公正规则的背后其实有效率考量的例子？
 
-<font color=#ffffff>“在司法实践里面，各国都有这么一条惯例，就是犯人如果配合司法部门自首认罪，那么他们的量刑就会比较轻。”</font>
-<font color=#ffffff>反过来思考，有钱有势的人被定罪的难度比普通人大，因其可请最好的律师组 或律师团跟司法部门较劲，司法部门同样也要动用大量的自亿元才能把他们绳之以法，国家要消耗的资源更多，那是否可以说，为了节省国家的资源，节省纳税人的金钱，我们就适可而止了，到一定程度就放那些有钱有势的人一马？</font>
-<font color=#ffffff>……</font>
+<span style="color:#ffffff">“在司法实践里面，各国都有这么一条惯例，就是犯人如果配合司法部门自首认罪，那么他们的量刑就会比较轻。”</span>
+
+<span style="color:#ffffff">反过来思考，有钱有势的人被定罪的难度比普通人大，因其可请最好的律师组 或律师团跟司法部门较劲，司法部门同样也要动用大量的自亿元才能把他们绳之以法，国家要消耗的资源更多，那是否可以说，为了节省国家的资源，节省纳税人的金钱，我们就适可而止了，到一定程度就放那些有钱有势的人一马？</span>
+
+<span style="color:#ffffff">……</span>
 
 **3.如何认识破窗理论？**
 
