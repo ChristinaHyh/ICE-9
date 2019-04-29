@@ -67,9 +67,29 @@ gem 'github-pages
 
 </code></pre>
 
+我的config.yml配置如下，可根据个人情况修改，详细见文档：[Configuration](https://www.netlifycms.org/docs/configuration-options/#collections)和[Widgets](https://www.netlifycms.org/docs/widgets/)
+
+<pre><code class="language-css">backend:
+
+  name: git-gateway
+
+  branch: master # Branch to update (master by default)
 
 
 
+\# This line should \*not\* be indented
+
+publish_mode: editorial_workflow
+
+
+
+media_folder: "/assets/img" # Folder where user uploaded files should go
+
+logo_url: https://hyahui.com/assets/icons/author.svg
+
+\# show_preview_links: true
+
+</code></pre>
 
 **3.Netlify绑定github的repo**
 
