@@ -17,7 +17,11 @@ layout: post
 
 **2.在github的Jekyll博客repo创建admin文件夹及Gemfile和.ruby-version**
 
-我是在本地修改好再push到github上的
+我是在本地修改好再push到github上的，该部分参考文档如下：
+
+[Add to Your Site](https://www.netlifycms.org/docs/add-to-your-site/)
+
+[Migrating your Jekyll site to Netlify](https://www.netlify.com/blog/2017/05/11/migrating-your-jekyll-site-to-netlify/?_ga=2.171346216.960609573.1554181992-139167350.1554020394)
 
 在Jekyll博客的根目录下创建两个文件，`Gemfile`和`.ruby-version`
 
@@ -38,7 +42,7 @@ gem 'github-pages
  └ config.yml
 </code></pre>
 
-其中index.html可以如下：
+其中`index.html`可以如下：
 
 <pre><code class="language-css">
 &lt;html&gt;
@@ -67,33 +71,85 @@ gem 'github-pages
 
 </code></pre>
 
-我的config.yml配置如下，可根据个人情况修改，详细见文档：[Configuration](https://www.netlifycms.org/docs/configuration-options/#collections)和[Widgets](https://www.netlifycms.org/docs/widgets/)
+我的`config.yml`配置如下，可根据个人情况修改，详细见文档：[Configuration](https://www.netlifycms.org/docs/configuration-options/#collections)和[Widgets](https://www.netlifycms.org/docs/widgets/)
 
 <pre><code class="language-css">backend:
 
   name: git-gateway
 
-  branch: master # Branch to update (master by default)
-
-
-
-\# This line should \*not\* be indented
+  branch: master 
 
 publish_mode: editorial_workflow
 
 
+media_folder: "/assets/img" 
 
-media_folder: "/assets/img" # Folder where user uploaded files should go
+collections: 
 
-logo_url: https://hyahui.com/assets/icons/author.svg
+   - name: "post" 
 
-\# show_preview_links: true
+     label: "Post" 
+
+     folder: "/_posts" 
+
+     sort: "date:desc" 
+
+     create: true # Allow users to create new documents in this collection
+
+     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+
+     fields: # The fields each document in this collection have
+
+       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+
+       - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
+
+       - {label: "Cover Image", name: "cover", widget: "image",required: false}
+
+       - {label: "Author", name: "author", widget: "string"}
+
+       - {label: "Tags", name: "tags", widget: "string", required: true}
+
+       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+
+       - {label: "Body", name: "body", widget: "markdown"}
+
+       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
 
 </code></pre>
 
+然后在你网站的主页`<head>`里加上：
+
+<pre><code class="language-css">&lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt;&lt;/script&gt;</code></pre>
+
+在`</body>`前加上：
+
+<pre><code class="language-css">&lt;script&gt;
+     if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+           if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                 document.location.href = "/admin/";
+              });
+            }
+         });
+     }
+     &lt;/script&gt;</code></pre>
+
+由于我的Jekyll使用的是H2O主题，所以我`<head>`部分加在`/_includes/head.html`，`</body>`部分加在`/_layouts/default.html`
+
 **3.Netlify绑定github的repo**
 
-Netlify：按照向导创建好
+Netlify：[app.netlify.com](https://app.netlify.com/)
+
+按照向导创建好
+
+![](/assets/img/2019-04-29_133700.png)
+
+注意在Build command
+和Publish directory
+填写`jekyll build`
+与`_site`
 
 **4.Netlify Deploy及开启Identity与Git Gateway服务**
 
