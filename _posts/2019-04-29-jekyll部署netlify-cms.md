@@ -158,8 +158,12 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 
 ![](/assets/img/2019-04-29_145948.png)
 
-****
+在Access control的OAuth绑定第1步在OAuth Apps注册的ID和Secret
+
+![](/assets/img/2019-04-29_151617.png)
 
 **4.Netlify Deploy及开启Identity与Git Gateway服务**
+
+****
 
 **5.用户设置及后台登录**
