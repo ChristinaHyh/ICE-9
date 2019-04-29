@@ -94,7 +94,7 @@ collections:
 
      sort: "date:desc" 
 
-     create: true # Allow users to create new documents in this collection
+     create: true
 
      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
 
@@ -134,7 +134,8 @@ collections:
             }
          });
      }
-     &lt;/script&gt;</code></pre>
+
+&lt;/script&gt;</code></pre>
 
 由于我的Jekyll使用的是H2O主题，所以我`<head>`部分加在`/_includes/head.html`，`</body>`部分加在`/_layouts/default.html`
 
