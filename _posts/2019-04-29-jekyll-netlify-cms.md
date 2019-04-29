@@ -136,7 +136,7 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 
 ![](/assets/img/2019-04-29_151856.png)
 
-部署完成后，点击Identity启动服务，在Registration选择Invite only，在Git Gateway授权g并开启服务
+部署完成后，点击Identity启动服务，在Registration选择Invite only，在Git Gateway授权并开启服务
 
 ![](/assets/img/2019-04-29_152047.png)
 
@@ -148,4 +148,4 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 
 官方后台[demo](https://cms-demo.netlify.com/#/collections/posts)
 
-在刚刚Registration页面里点击Identity tab可进行用户管理，如需密码设置和邮箱验证可在后台登录地址里完成
+在刚刚Registration页面里点击Identity tab可进行用户管理，如需密码设置和邮箱验证可在后台管理的登录界面完成
