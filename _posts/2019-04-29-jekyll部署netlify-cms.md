@@ -164,6 +164,20 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 
 **4.Netlify Deploy及开启Identity与Git Gateway服务**
 
-****
+选择Deploy点击Deploy Site
+
+![](/assets/img/2019-04-29_151856.png)
+
+部署完成后，点击Identity启动服务，在Registration选择Invite only，在Git Gateway授权g并开启服务
+
+![](/assets/img/2019-04-29_152047.png)
+
+![](/assets/img/2019-04-29_152118.png)
 
 **5.用户设置及后台登录**
+
+后台管理地址：xxx.com/admin
+
+官方后台[demo](https://cms-demo.netlify.com/#/collections/posts)
+
+在刚刚Registration页面里点击Identity tab可进行用户管理，如需密码设置和邮箱验证可在后台登录地址里完成
