@@ -6,6 +6,8 @@ tags: TOOLS
 date: '2019-04-29'
 layout: post
 ---
+>
+>
 > Jekyll托管在github上，但每次发文章都需要push，有些不便，于是将博客部署到[Netlify](https://app.netlify.com)，以便后台管理
 
 **1.创建**[**OAuth Apps**](https://github.com/settings/developers)**并获取Client ID
@@ -181,3 +183,5 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 官方后台[demo](https://cms-demo.netlify.com/#/collections/posts)
 
 在刚刚Registration页面里点击Identity tab可进行用户管理，如需密码设置和邮箱验证可在后台登录地址里完成
+
+![](/assets/img/2019-04-29_152729.png)
