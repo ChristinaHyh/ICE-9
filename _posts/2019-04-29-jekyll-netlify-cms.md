@@ -72,7 +72,7 @@ collections:
   create: true
   slug: "\{\{year\}\}-\{\{month\}\}-\{\{day\}\}-\{\{slug\}\}"
   fields: 
-    - {label: "Permalink", name: "permalink", widget: "string", default: "/posts/new", required: true}
+     - {label: "Permalink", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
     - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
     - {label: "Cover Image", name: "cover", widget: "image",required: false}
@@ -82,6 +82,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
 </code></pre>
+
 
 
 
