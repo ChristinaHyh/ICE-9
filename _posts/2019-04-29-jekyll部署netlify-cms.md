@@ -23,8 +23,7 @@ layout: post
 
 `Gemfile`的内容如下：
 
-<pre><code class="language-css">
-source "https://rubygems.org"
+<pre><code class="language-css">source "https://rubygems.org"
 gem 'github-pages
 </code></pre>
 
@@ -34,8 +33,7 @@ gem 'github-pages
 
 然后同样在根目录下创建文件夹`admin`，里面有两个文件`index.html`和`config.yml`
 
-<pre><code class="language-css">
-admin
+<pre><code class="language-css">admin
  ├ index.html
  └ config.yml
 </code></pre>
@@ -43,33 +41,35 @@ admin
 其中index.html可以如下：
 
 <pre><code class="language-css">
-<html>
+&lt;html&gt;
 
-<head>
+&lt;head&gt;
 
-  <meta charset="utf-8" />
+  &lt;meta charset="utf-8" /&gt;
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
 
-  <title>Content Manager</title>
+  &lt;title&gt;Content Manager&lt;/title&gt;
 
-  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0/dist/cms.css" />
+  &lt;link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0/dist/cms.css" /&gt;
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  &lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt;&lt;/script&gt;
 
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
 
-  <!-- Include the script that builds the page and powers Netlify CMS -->
+  &lt;script src="https://unpkg.com/netlify-cms@^2.9.1/dist/netlify-cms.js"&gt;&lt;/script&gt;
 
-  <script src="https://unpkg.com/netlify-cms@^2.9.1/dist/netlify-cms.js"></script>
+&lt;/body&gt;
 
-</body>
-
-</html>
+&lt;/html&gt;
 
 </code></pre>
+
+
+
+
 
 **3.Netlify绑定github的repo**
 
