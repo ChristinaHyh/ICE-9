@@ -42,83 +42,51 @@ gem 'github-pages
  └ config.yml
 </code></pre>
 
+
 其中`index.html`可以如下：
 
-<pre><code class="language-css">
-&lt;html&gt;
-
+<pre><code class="language-css">&lt;html&gt;
 &lt;head&gt;
-
   &lt;meta charset="utf-8" /&gt;
-
   &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
-
   &lt;title&gt;Content Manager&lt;/title&gt;
-
   &lt;link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0/dist/cms.css" /&gt;
-
   &lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt;&lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
   &lt;script src="https://unpkg.com/netlify-cms@^2.9.1/dist/netlify-cms.js"&gt;&lt;/script&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
-
 </code></pre>
 
 我的`config.yml`配置如下，可根据个人情况修改，详细见文档：[Configuration](https://www.netlifycms.org/docs/configuration-options/#collections)和[Widgets](https://www.netlifycms.org/docs/widgets/)
 
 <pre><code class="language-css">backend:
-
   name: git-gateway
-
   branch: master 
-
 publish_mode: editorial_workflow
-
-
 media_folder: "/assets/img" 
-
 collections: 
-
-   - name: "post" 
-
-     label: "Post" 
-
-     folder: "/_posts" 
-
-     sort: "date:desc" 
-
-     create: true
-
-     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-
-     fields: 
-
-       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-
-       - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
-
-       - {label: "Cover Image", name: "cover", widget: "image",required: false}
-
-       - {label: "Author", name: "author", widget: "string"}
-
-       - {label: "Tags", name: "tags", widget: "string", required: true}
-
-       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-
-       - {label: "Body", name: "body", widget: "markdown"}
-
-       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-
+- name: "post" 
+  label: "Post" 
+  folder: "/_posts" 
+  sort: "date:desc" 
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields: 
+    - {label: "Permalink", name: "permalink", widget: "string", default: "/posts/new", required: true}
+    - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+    - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
+    - {label: "Cover Image", name: "cover", widget: "image",required: false}
+    - {label: "Author", name: "author", widget: "string"}
+    - {label: "Tags", name: "tags", widget: "string", required: true}
+    - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
 </code></pre>
 
-然后在你网站的主页`<head>`里加上：
+
+ 然后在你网站的主页`<head>`里加上：
 
 <pre><code class="language-css">&lt;script src="https://identity.netlify.com/v1/netlify-identity-widget.js"&gt;&lt;/script&gt;</code></pre>
 
@@ -134,8 +102,7 @@ collections:
             }
          });
      }
-
-&lt;/script&gt;</code></pre>
+&lt;/script&gt; </code></pre>
 
 由于我的Jekyll使用的是H2O主题，所以我`<head>`部分加在`/_includes/head.html`，`</body>`部分加在`/_layouts/default.html`
 
