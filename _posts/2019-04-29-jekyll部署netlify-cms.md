@@ -6,8 +6,6 @@ tags: TOOLS
 date: '2019-04-29'
 layout: post
 ---
->
->
 > Jekyll托管在github上，但每次发文章都需要push，有些不便，于是将博客部署到[Netlify](https://app.netlify.com)，以便后台管理
 
 **1.创建**[**OAuth Apps**](https://github.com/settings/developers)**并获取Client ID
@@ -100,7 +98,7 @@ collections:
 
      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
 
-     fields: # The fields each document in this collection have
+     fields: 
 
        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
 
@@ -156,7 +154,7 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 
 ![](/assets/img/2019-04-29_133822.png)
 
-点击Domain Settings设置域名，如果原先向导有填，此处应该已经建好一个xxx.com和www.xxx.com，但是后面会有个Check DNS configuration，点击可以查看帮助，建议将域名解析到Netlify上，我原先将域名解析到github，后续Deploy后，在Preview里后台登录没有问题，而站点登录时则出现`Failed to load settings from /.netlify/identity`错误，设置好如下图，其中Netlify二级域名可自己设定，方便CNAME解析
+点击Domain Settings设置域名，如果原先向导有填，此处应该已经建好一个xxx.com和www.xxx.com，但是后面会有个Check DNS configuration，点击可以查看帮助，建议将域名解析到Netlify上，我原先将域名解析到github，后续Deploy后，在Preview里后台登录没有问题，而站点登录时则出现`Failed to load settings from /.netlify/identity`错误，设置好如下图，其中Netlify二级域名可自己设定，方便CNAME解析
 
 ![](/assets/img/2019-04-29_145948.png)
 
@@ -183,5 +181,3 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 官方后台[demo](https://cms-demo.netlify.com/#/collections/posts)
 
 在刚刚Registration页面里点击Identity tab可进行用户管理，如需密码设置和邮箱验证可在后台登录地址里完成
-
-![](/assets/img/2019-04-29_152729.png)
