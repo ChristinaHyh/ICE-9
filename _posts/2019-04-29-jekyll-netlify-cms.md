@@ -59,8 +59,6 @@ gem 'github-pages
 </code></pre>
 我的`config.yml`配置如下，可根据个人情况修改，详细见文档：[Configuration](https://www.netlifycms.org/docs/configuration-options/#collections)和[Widgets](https://www.netlifycms.org/docs/widgets/)
 
-其中slug为：`slug: "{{year}}-{{month}}-{{day}}-{{slug}}"`
-
 <pre><code class="language-css">backend:
   name: git-gateway
   branch: master 
@@ -72,7 +70,7 @@ collections:
   folder: "/_posts" 
   sort: "date:desc" 
   create: true
-  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  slug: "\{\{year\}\}-\{\{month\}\}-\{\{day\}\}-\{\{slug\}\}"
   fields: 
     - {label: "Permalink", name: "permalink", widget: "string", default: "/posts/new", required: true}
     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -84,6 +82,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
 </code></pre>
+
 
 
  然后在你网站的主页`<head>`里加上：
