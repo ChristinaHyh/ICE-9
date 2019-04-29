@@ -11,36 +11,70 @@ layout: post
 **1.创建**[**OAuth Apps**](https://github.com/settings/developers)**并获取Client ID
 和Client Secret**
 
- 
-
 ![](/assets/img/2019-04-29_133258.png)
 
 其中Authorization callback URL填：https://api.netlify.com/auth/done
 
 **2.在github的Jekyll博客repo创建admin文件夹及Gemfile和.ruby-version**
 
-我是在本地修改好push到github上的
+我是在本地修改好再push到github上的
 
 在Jekyll博客的根目录下创建两个文件，`Gemfile`和`.ruby-version`
 
 `Gemfile`的内容如下：
 
-<pre><code class="language-css">source "https://rubygems.org"
-gem 'github-pages</code></pre>
-
+<pre><code class="language-css">
+source "https://rubygems.org"
+gem 'github-pages
+</code></pre>
 
 `.ruby-version`的内容如下：
 
 <pre><code class="language-css">2.6.2</code></pre>
 
+然后同样在根目录下创建文件夹`admin`，里面有两个文件`index.html`和`config.yml`
 
+<pre><code class="language-css">
+admin
+ ├ index.html
+ └ config.yml
+</code></pre>
+
+其中index.html可以如下：
+
+<pre><code class="language-css">
+<html>
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Content Manager</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0/dist/cms.css" />
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+
+  <script src="https://unpkg.com/netlify-cms@^2.9.1/dist/netlify-cms.js"></script>
+
+</body>
+
+</html>
+
+</code></pre>
 
 **3.Netlify绑定github的repo**
 
 Netlify：按照向导创建好
 
 **4.Netlify Deploy及开启Identity与Git Gateway服务**
-
-
 
 **5.用户设置及后台登录**
