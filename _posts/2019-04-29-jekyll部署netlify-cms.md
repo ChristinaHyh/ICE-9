@@ -146,10 +146,19 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 
 ![](/assets/img/2019-04-29_133700.png)
 
-注意在Build command
-和Publish directory
-填写`jekyll build`
-与`_site`
+注意在Build command和Publish directory填写`jekyll build`与`_site`下图是配置好的设置里的，如果是绑定github上Jekyll博客的话，向导应该会自动填写
+
+![](/assets/img/2019-04-29_145037.png)
+
+建好之后如下
+
+![](/assets/img/2019-04-29_133822.png)
+
+点击Domain Settings设置域名，如果原先向导有填，此处应该已经建好一个xxx.com和www.xxx.com，但是后面会有个Check DNS configuration，点击可以查看帮助，建议将域名解析到Netlify上，我原先将域名解析到github，后续Deploy后，在Preview里后台登录没有问题，而站点登录时则出现`Failed to load settings from /.netlify/identity`错误，设置好如下图，其中Netlify二级域名可自己设定，方便CNAME解析
+
+![](/assets/img/2019-04-29_145948.png)
+
+****
 
 **4.Netlify Deploy及开启Identity与Git Gateway服务**
 
