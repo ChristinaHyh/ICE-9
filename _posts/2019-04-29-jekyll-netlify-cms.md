@@ -57,6 +57,7 @@ gem 'github-pages
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
+
 我的`config.yml`配置如下，可根据个人情况修改，详细见文档：[Configuration](https://www.netlifycms.org/docs/configuration-options/#collections)和[Widgets](https://www.netlifycms.org/docs/widgets/)
 
 <pre><code class="language-css">backend:
@@ -72,7 +73,7 @@ collections:
   create: true
   slug: "\{\{year\}\}-\{\{month\}\}-\{\{day\}\}-\{\{slug\}\}"
   fields: 
-     - {label: "Permalink", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
+    - {label: "Permalink", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
     - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
     - {label: "Cover Image", name: "cover", widget: "image",required: false}
@@ -82,9 +83,6 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
 </code></pre>
-
-
-
 
  然后在你网站的主页`<head>`里加上：
 
@@ -123,6 +121,8 @@ Netlify：[app.netlify.com](https://app.netlify.com/)
 ![](/assets/img/2019-04-29_133822.png)
 
 点击Domain Settings设置域名，如果原先向导有填，此处应该已经建好一个xxx.com和www.xxx.com，但是后面会有个Check DNS configuration，点击可以查看帮助，建议将域名解析到Netlify上，我原先将域名解析到github，后续Deploy后，在Preview里后台登录没有问题，而站点登录时则出现`Failed to load settings from /.netlify/identity`错误，设置好如下图，其中Netlify二级域名可自己设定，方便CNAME解析
+
+如果不想将域名解析到Netlify，也可以直接用在Netlify设置的二级域名`xxx.netlify.com/admin`登录后台
 
 ![](/assets/img/2019-04-29_145948.png)
 
