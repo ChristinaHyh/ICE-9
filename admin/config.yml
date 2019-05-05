@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Permalink", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3",required: false}
       - {label: "Cover Image", name: "cover", widget: "image",required: false}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string", required: true}
