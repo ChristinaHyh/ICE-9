@@ -9,7 +9,7 @@ tags: LONELYREADER
 
 ---
 
- <small>This post was written to show what I have learned  when I was on [board](https://www.lonelyreader.com).</small>
+ This post was written to show what I have learned  when I was on [board](https://www.lonelyreader.com).
 
 ---
 
