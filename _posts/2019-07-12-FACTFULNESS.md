@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ''
-date: 2019-07-31
+title: '重新思考'
+date: 2019-07-12
 author: Christina
 subtitle: 《事实》（FACTFULNESS） 汉斯·罗斯林等著
 tags: READER
