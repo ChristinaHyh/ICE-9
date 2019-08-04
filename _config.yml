@@ -12,6 +12,7 @@ nav:
   home: '/'
   about: '/about.html'
   tags: '/tags.html'
+  Cat's Cradle: 'https://huangyahui.com'
 
 # Footer
 footer:
