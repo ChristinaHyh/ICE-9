@@ -1,7 +1,6 @@
 ---
 layout: sci
 title: '从源分离尿中回收氨的吹脱汽提工艺：建模和优化'
-date: 2019-09-10
 author: Christina
 permalink: air-stripping.html
 hidden: true
