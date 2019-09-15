@@ -142,9 +142,9 @@ Metacognitive functioning：
 ②命名段落
 
 ③整合
-
-
-
+$$
+C^T_{NH_3}
+$$
 
 
 
