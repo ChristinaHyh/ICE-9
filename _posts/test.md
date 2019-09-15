@@ -4,7 +4,7 @@ title: test
 author: Christina
 date: '2019-09-15'
 layout: post
-published: false
+category: public
 ---
 
 
