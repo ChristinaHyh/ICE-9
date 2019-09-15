@@ -90,6 +90,7 @@
     {% endif %}
     
     <section class="post-footer-item read-next">
+      {% unless hidden == true %} 
       {% if page.next.url %}
       <div class="read-next-item">
         <a href="{{ page.next.url }}" class="read-next-link"></a>
@@ -117,6 +118,7 @@
           {% endif %}
       </div>
       {% endif %}
+      {% endunless %} 
     </section>
 
     
