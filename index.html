@@ -19,7 +19,7 @@ header-img: /assets/img/machine.gif
 
 <main class="g-container home-content">
     <div class="article-list">
-        {% for post in paginator.posts.categories.public %}
+        {% for post in paginator.posts %}
             <article class="article-item">
                 {% if post.cover %}
                 <div class="post-cover">
