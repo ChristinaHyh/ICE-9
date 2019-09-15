@@ -7,6 +7,8 @@ permalink: air-stripping.html
 hidden: true
 ---
 
+<article class="markdown-body">
+
 ---
 
 [REFERENCES: Air stripping process for ammonia recovery from source-separated urine: modeling and optimization](https://onlinelibrary.wiley.com/doi/abs/10.1002/jctb.4535)
@@ -100,3 +102,4 @@ $$
 
 [1]李圭白.水质工程学（第二版）[M].中国建筑工业出版社,2012:382.
 
+</article>
