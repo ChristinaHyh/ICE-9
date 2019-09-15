@@ -2,6 +2,7 @@
 layout: sci
 title: '从源分离尿中回收氨的吹脱汽提工艺：建模和优化'
 author: Christina
+date: 2019-09-10
 permalink: air-stripping.html
 hidden: true
 ---
@@ -92,7 +93,6 @@ Na、Mg、K、Ca浓度→电感耦合等离子体发射光谱
 $$
 C^T_{NH_3}
 $$
-
 
 ---
 
