@@ -91,7 +91,7 @@
 
 
     <section class="post-footer-item read-next">
-          {% if page.next.hidden.false.url %}
+          {% if page.next.url and page.next.hidden == false %}
           <div class="read-next-item">
             <a href="{{ page.next.url }}" class="read-next-link"></a>
             <section>
@@ -105,7 +105,7 @@
           </div>
           {% endif %}
 
-          {% if page.previous.url %}
+          {% if page.previous.url and page.previous.hidden == false %}
           <div class="read-next-item">
             <a href="{{ page.previous.url }}" class="read-next-link"></a>
               <section>
