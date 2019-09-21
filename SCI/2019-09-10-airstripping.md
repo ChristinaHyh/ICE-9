@@ -23,6 +23,8 @@ hidden: true
 
 CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O→CO<sub>2</sub>+2NH<sub>3</sub>
 
+**鸟粪石沉淀：**Mg<sup>2+</sup>+NH<sub>4</sub><sup>+</sup>+PO<sub>4</sub><sup>3-</sup>+6H<sub>2</sub>O→MgNH<sub>4</sub>PO<sub>4</sub>·6H<sub>2</sub>O↓（吸热反应）
+
 
 
 ### Gap：
@@ -90,9 +92,33 @@ Na、Mg、K、Ca浓度→电感耦合等离子体发射光谱
 所有试剂为分析纯级别，至少两组作平行确保精确度
 
 
+
+### 吹脱原理
+
+吹脱的关键：尿液中NH<sub>4</sub><sup>+</sup>→NH<sub>3</sub>(l)——因只有游离NH<sub>3</sub>才能被有效吹脱
+
+水中总溶解氨可表示为：
+
 $$
-C^T_{NH_3}
+C^T_{NH_3}=C_{l,{NH_3}}+C_{NH_4^+}
 $$
+
+则溶液中的NH<sub>3</sub>分数可表示为：
+$$
+\delta_{l,NH_3}=\frac{C_{l,{NH_3}}}{C^T_{NH_3}}=\frac{1}{1+10^{-pH}\times k}\quad\quad      (k=\frac{K_{d,NH_3}}{K_{d,H_2O}})
+$$
+其中K<sub>d,NH<sub>3</sub></sub>和K<sub>d,H<sub>2</sub>O</sub>为NH<sub>3</sub>和H<sub>2</sub>O的离解常数
+
+游离氨在气相和液相中的平衡可表示为：
+$$
+NH_3(g)\rightleftharpoons NH_3(l)\\
+C_{g,{NH_3}}=H_{NH_3}\times C^*_{l,{NH_3}}
+$$
+其中C<sup>*</sup><sub>l,NH<sub>3</sub></sub>为气相浓度C<sub>g,NH<sub>3</sub></sub>(mol/L)在平衡时的液相自由氨浓度，H<sub>NH<sub>3</sub></sub>为氨的无量纲亨利常数（298K时取0.0065）
+
+![](/assets/img/2019-09-21_213246.png)
+
+
 
 ---
 
