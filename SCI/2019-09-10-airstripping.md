@@ -31,7 +31,7 @@ CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O→CO<sub>2</sub>+2NH<sub>3</sub>
 
 传统双膜模型不能解释pH对氨回收率的影响：
 
-Matter-Mueller等的双膜模型没有解释相关运行参数（扩散率、亨利常数、传质系数、气液接触方式等）和质量传递系数的关系，没有考虑氨解离（空气吹脱的关键，受pH影响明显）过程，影响对汽提过程中溶液pH的判定。
+Matter-Mueller等的双膜模型没有解释相关运行参数（扩散率、亨利常数、传质系数、气液接触方式等）和质量传递系数的关系，没有考虑氨解离（\\( NH_3(l)+H_2O\rightleftharpoons NH_4^++OH^- \\)空气吹脱的关键，受pH影响明显）过程，影响对汽提过程中溶液pH的判定。
 
 
 $$
@@ -149,7 +149,11 @@ $$
 
 
 $$
+\begin{equation}
+\begin{split}
 -ln\frac{C^T_{NH_3,t}}{C^T_{NH_3,0}}=\delta_{l,NH_3} \times \frac{Q_G \times H_{NH_3}}{V_L}\times [1-exp(-\frac{K_{L,NH_3}\times a \times V_L}{Q_G \times H_{NH_3}})]
+\end{split}
+\end{equation}
 $$
 
 
@@ -169,7 +173,7 @@ $$
 
 ①pH的影响
 
-在温度和气流流速保持恒定（323K，2 L/(min·L)）下研究pH对NH<sub>3</sub>去除率的影响，结果如图所示，pH的增加影响了NH<sub>3</sub>解离过程（NH<sub>4</sub><sup>+</sup>→NH<sub>3</sub>(l)），进而提高了δ<sub>l,NH<sub>3，增加了拟合斜率（slope=δ<sub>l,NH<sub>3</sub></sub>×K<sub>L,NH<sub>3</sub></sub>×a，其中K<sub>L,NH<sub>3</sub></sub>×a在特定温度和气流流速下为常数），同时也提高了NH<sub>3</sub>去除率。研究表明，pH的提高有助于提高水解尿液中NH<sub>3</sub>(l)含量，（pH≈9-9.5时，NH<sub>3</sub>仅有58.6%，当pH>10时，可增至90%或更高），这将影响后续的吹脱传质与NH<sub>3</sub>去除率，水解尿液的pH调节，也应该考虑经济性，pH>10后继续增加pH，对δ<sub>l,NH<sub>3</sub></sub>提高不明显，继续增加pH将提高化学药剂的使用成本。
+在温度和气流流速保持恒定（323K，2 L/(min·L)）下研究pH对NH<sub>3</sub>去除率的影响，结果如图所示，pH的增加影响了NH<sub>3</sub>解离过程（NH<sub>4</sub><sup>+</sup>→NH<sub>3</sub>(l)），进而提高了δ<sub>l,NH<sub>3</sub></sub>，增加了拟合斜率（slope=δ<sub>l,NH<sub>3</sub></sub>×K<sub>L,NH<sub>3</sub></sub>×a，其中K<sub>L,NH<sub>3</sub></sub>×a在特定温度和气流流速下为常数），同时也提高了NH<sub>3</sub>去除率。研究表明，pH的提高有助于提高水解尿液中NH<sub>3</sub>(l)含量，（pH≈9-9.5时，NH<sub>3</sub>仅有58.6%，当pH>10时，可增至90%或更高），这将影响后续的吹脱传质与NH<sub>3</sub>去除率，水解尿液的pH调节，也应该考虑经济性，pH>10后继续增加pH，对δ<sub>l,NH<sub>3</sub></sub>提高不明显，继续增加pH将提高化学药剂的使用成本。
 
 ②气流流速影响
 
