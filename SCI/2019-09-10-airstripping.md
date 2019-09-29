@@ -149,7 +149,7 @@ $$
 
 
 $$
--ln\frac{C^T_{{NH_3},t}}{C^T_{{NH_3},0}}=\delta_{l,NH_3} \times \frac{Q_G \times H_{NH_3}}{V_L}\times [1-exp(-\frac{K_{L,NH_3}\times a \times V_L}{Q_G \times H_{NH_3}})]
+-ln\frac{C^T_{NH_3,t}}{C^T_{NH_3,0}}=\delta_{l,NH_3} \times \frac{Q_G \times H_{NH_3}}{V_L}\times [1-exp(-\frac{K_{L,NH_3}\times a \times V_L}{Q_G \times H_{NH_3}})]
 $$
 
 
@@ -159,7 +159,7 @@ $$
 
 
 $$
--ln\frac{C^T_{{NH_3},t}}{C^T_{{NH_3},0}}=\delta_{l,NH_3} \times K_{L,NH_3} \times a\\
+-ln\frac{C^T_{NH_3,t}}{C^T_{NH_3,0}}=\delta_{l,NH_3} \times K_{L,NH_3} \times a\\
 slope=\delta_{l,NH_3} \times K_{L,NH_3} \times a
 $$
 
