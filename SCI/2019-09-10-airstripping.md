@@ -19,9 +19,7 @@ hidden: true
 
 以空气为载气称为吹脱，以水蒸气为载气称为汽提，吹脱法处理的吹脱组分应收集利用或送锅炉焚烧，防止污染物转移。
 
-**脲酶（Urease）：**一种含镍的寡聚酶，能催化尿素水解为二氧化碳和氨。
-
-CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O→CO<sub>2</sub>+2NH<sub>3</sub>
+**脲酶（Urease）：**一种含镍的寡聚酶，能催化尿素水解为二氧化碳和氨，CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O→CO<sub>2</sub>+2NH<sub>3</sub>
 
 **鸟粪石沉淀：**Mg<sup>2+</sup>+NH<sub>4</sub><sup>+</sup>+PO<sub>4</sub><sup>3-</sup>+6H<sub>2</sub>O→MgNH<sub>4</sub>PO<sub>4</sub>·6H<sub>2</sub>O↓（吸热反应）
 
@@ -142,11 +140,8 @@ $$
 
 
 $$
-\begin{equation}
-\begin{split}
--ln\frac{C^T_{NH_3,t}}{C^T_{NH_3,0}}= & \delta_{l,NH_3} \times \frac{Q_G \times H_{NH_3}}{V_L}\times \\ & [1-exp(-\frac{K_{L,NH_3}\times a \times V_L}{Q_G \times H_{NH_3}})]
-\end{split}
-\end{equation}
+\small
+-ln\frac{C^T_{NH_3,t}}{C^T_{NH_3,0}}=\delta_{l,NH_3} \times \frac{Q_G \times H_{NH_3}}{V_L}\times[1-exp(-\frac{K_{L,NH_3}\times a \times V_L}{Q_G \times H_{NH_3}})]
 $$
 
 
