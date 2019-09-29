@@ -31,7 +31,7 @@ CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O→CO<sub>2</sub>+2NH<sub>3</sub>
 
 传统双膜模型不能解释pH对氨回收率的影响：
 
-Matter-Mueller等的双膜模型没有解释相关运行参数（扩散率、亨利常数、传质系数、气液接触方式等）和质量传递系数的关系，没有考虑氨解离（\\( \begin{small}NH_3(l)+H_2O\rightleftharpoons NH_4^++OH^- \end{small}\\)空气吹脱的关键，受pH影响明显）过程，影响对汽提过程中溶液pH的判定。
+Matter-Mueller等的双膜模型没有解释相关运行参数（扩散率、亨利常数、传质系数、气液接触方式等）和质量传递系数的关系，没有考虑氨解离（NH<sub>3</sub>(l)+H<sub>2</sub>\\( \rightleftharpoons\\)NH<sub>4</sub><sup>+</sup>+OH<sup>-</sup>，空气吹脱的关键，受pH影响明显）过程，影响对汽提过程中溶液pH的判定。
 
 降低吹脱法的工业化成本对其推广应用具有重要意义：
 
