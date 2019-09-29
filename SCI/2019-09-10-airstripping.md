@@ -163,7 +163,7 @@ $$
 
 **pH的影响**
 
-在温度和气流流速保持恒定（323K，2 L/(min·L)）下研究pH对NH<sub>3</sub>去除率的影响，结果如图所示，pH的增加影响了NH<sub>3</sub>解离过程（NH<sub>4</sub><sup>+</sup>→NH<sub>3</sub>(l)），进而提高了δ<sub>l,NH<sub>3</sub></sub>，增加了拟合斜率（slope=δ<sub>l,NH<sub>3</sub></sub>×K<sub>L,NH<sub>3</sub></sub>×a，其中K<sub>L,NH<sub>3</sub></sub>×a在特定温度和气流流速下为常数），同时也提高了NH<sub>3</sub>去除率。研究表明，pH的提高有助于提高水解尿液中NH<sub>3</sub>(l)含量，（pH≈9-9.5时，NH<sub>3</sub>仅有58.6%，当pH>10时，可增至90%或更高），这将影响后续的吹脱传质与NH<sub>3</sub>去除率，水解尿液的pH调节，也应该考虑经济性，pH>10后继续增加pH，对δ<sub>l,NH<sub>3</sub></sub>提高不明显，继续增加pH将提高化学药剂的使用成本。
+在温度和气流流速保持恒定（323K，2 L/(min·L)）下研究pH对NH<sub>3</sub>去除率的影响，结果如图所示，pH的增加影响了NH<sub>3</sub>解离过程（NH<sub>4</sub><sup>+</sup>→NH<sub>3</sub>(l)），进而提高了δ<sub>l,NH<sub>3</sub></sub>，增加了拟合斜率（slope=δ<sub>l,NH<sub>3</sub></sub>×K<sub>L,NH<sub>3</sub></sub>×a，其中K<sub>L,NH<sub>3</sub></sub>×a在特定温度和气流流速下为常数），同时也提高了NH<sub>3</sub>去除率。研究表明，pH的提高有助于提高水解尿液中NH<sub>3</sub>(l)含量，（pH≈9-9.5时，NH<sub>3</sub>仅有58.6%，当pH>10时，可增至90%或更高），这将影响后续的吹脱传质与NH<sub>3</sub>去除率，水解尿液的pH调节也应该考虑经济性，pH>10后继续增加pH对δ<sub>l,NH<sub>3</sub></sub>提高不明显，但会提高化学药剂的使用成本。
 
 **气流流速影响**
 
