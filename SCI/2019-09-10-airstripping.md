@@ -32,9 +32,12 @@ CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O→CO<sub>2</sub>+2NH<sub>3</sub>
 传统双膜模型不能解释pH对氨回收率的影响：
 
 Matter-Mueller等的双膜模型没有解释相关运行参数（扩散率、亨利常数、传质系数、气液接触方式等）和质量传递系数的关系，没有考虑氨解离（空气吹脱的关键，受pH影响明显）过程，影响对汽提过程中溶液pH的判定。
+
+
 $$
 NH_3(l)+H_2O\rightleftharpoons NH_4^++OH^-
 $$
+
 
 
 降低吹脱法的工业化成本对其推广应用具有重要意义：
@@ -104,6 +107,7 @@ Na、Mg、K、Ca浓度→电感耦合等离子体发射光谱
 水中总溶解氨可表示为：
 
 
+
 $$
 C^T_{NH_3}=C_{l,{NH_3}}+C_{NH_4^+}
 $$
@@ -113,10 +117,12 @@ $$
 则溶液中的NH<sub>3</sub>分数可表示为：
 
 
+
 $$
 \delta_{l,NH_3}=\frac{C_{l,{NH_3}}}{C^T_{NH_3}}=\frac{1}{1+10^{-pH}\times k}\\
 (k=\frac{K_{d,NH_3}}{K_{d,H_2O}})
 $$
+
 
 
 其中K<sub>d,NH<sub>3</sub></sub>和K<sub>d,H<sub>2</sub>O</sub>为NH<sub>3</sub>和H<sub>2</sub>O的离解常数
@@ -124,10 +130,12 @@ $$
 游离氨在气相和液相中的平衡可表示为：
 
 
+
 $$
 NH_3(g)\rightleftharpoons NH_3(l)\\
 C_{g,{NH_3}}=H_{NH_3}\times C^*_{l,{NH_3}}
 $$
+
 
 
 其中C<sup>*</sup><sub>l,NH<sub>3</sub></sub>为气相浓度C<sub>g,NH<sub>3</sub></sub>(mol/L)在平衡时的液相自由氨浓度，H<sub>NH<sub>3</sub></sub>为氨的无量纲亨利常数（298K时取0.0065）
@@ -137,14 +145,25 @@ $$
 **建模优化**
 
 根据Matter-Mueller的双膜模型及考虑NH<sub>3</sub>在水中的解离（原文献中的式⑷、式⑺、式⑻）可得：
+
+
+
 $$
 -ln\frac{C^T_{{NH_3},t}}{C^T_{{NH_3},0}}=\delta_{l,NH_3} \times \frac{Q_G \times H_{NH_3}}{V_L}\times [1-exp(-\frac{K_{L,NH_3}\times a \times V_L}{Q_G \times H_{NH_3}})]
 $$
+
+
+
 在(K<sub>L,NH<sub>3</sub></sub>×a×V<sub>L</sub>)/(H<sub>NH<sub>3</sub></sub>×Q<sub>G</sub>)<<1时，上式变为：
+
+
+
 $$
 -ln\frac{C^T_{{NH_3},t}}{C^T_{{NH_3},0}}=\delta_{l,NH_3} \times K_{L,NH_3} \times a\\
 slope=\delta_{l,NH_3} \times K_{L,NH_3} \times a
 $$
+
+
 
 ### 结果与讨论
 
