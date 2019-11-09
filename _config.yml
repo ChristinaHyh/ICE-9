@@ -96,6 +96,11 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate]
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+# Languages
+languages: ["zh","en"]
