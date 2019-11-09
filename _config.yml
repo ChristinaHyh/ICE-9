@@ -100,7 +100,8 @@ permalink: /:year/:month/:day/:title.html
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-multiple-languages-plugin
+# - jekyll-multiple-languages-plugin
 
 # Languages
-languages: ["zh","en"]
+# languages: ["zh","en"]
+# exclude_from_localizations: ["javascript", "images", "css"]
