@@ -10,8 +10,8 @@ baseurl: ''
 # Navigation links
 nav:
   home: '/'
-  about: '/about.html'
-  tags: '/tags.html'
+  about: '/about'
+  tags: '/tags'
 #  Cat's Cradle: 'https://huangyahui.com'
 
 # Footer
