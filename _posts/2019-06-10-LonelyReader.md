@@ -13,7 +13,7 @@ tags: LONELYREADER
 
 
 <h6 style="text-align:right">个人定位：及“知”未“智”——2019-06-10</h6>
-<h6 style="text-align:right"><a href=“https://www.lonelyreader.com”>上船：</a>Porta→燎原(19-12-24)</h6>
+<h6 style="text-align:right"><a href="https://www.lonelyreader.com">上船：</a>Porta→燎原(19-12-24)</h6>
 
 
 
