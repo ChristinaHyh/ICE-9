@@ -36,7 +36,7 @@ comments:
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
   
 valine_comment:
-    enable: true
+    enable: false
     leancloud_appid: yI9Ndj2tiyrW3xhKo0crwfCb-gzGzoHsz
     leancloud_appkey: VdUCENaCsQsT0qBJV9ilxbX0
     placeholder: "Ahoy!"
