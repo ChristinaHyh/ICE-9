@@ -10,7 +10,7 @@ hidden: true
 
 ---
 
-<h3 style="text-align:center"><a href="https://www.bilibili.com/video/av92451511?from=search&seid=1094528721253603488">马军院士《浅谈研究生素质培养与科学研究方法》</a>有感</h5>
+<h5 style="text-align:center"><a href="https://www.bilibili.com/video/av92451511?from=search&seid=1094528721253603488">马军院士《浅谈研究生素质培养与科学研究方法》</a>有感</h5>
 
 ---
 
@@ -34,11 +34,11 @@ hidden: true
 
 ### 意识问题：
 
-- 实验过程中的反常现象
+- 科学素质的养成
 - 特色知识结构的构建
-- 严谨的科学态度
 - 研究课题的选择
-- 
+- 研究生的综合能力
+- 学位论文的形成
 
 ### 拆解问题：
 
@@ -57,10 +57,10 @@ https://www.coursera.org/learn/sciwrite/
 
 ![](/assets/img/2020-03-01_135409.png)
 
+---
 
 
-> 
->
+
 > 研究生自我培养发展目标：夯实基础、培育素质、发展思想、积累优势、拓展方向
 >
 > ​      ①具有可持续发展潜力的创新型学术骨干
@@ -72,7 +72,5 @@ https://www.coursera.org/learn/sciwrite/
 > ​      ④健康的心理素质、顽强的毅力，强的表达能力和组织能力
 >
 > ​      ⑤形成稳定先进可滚动发展的学术方向
->
-> 
 
-​      
+---
