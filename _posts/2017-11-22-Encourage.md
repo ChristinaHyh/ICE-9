@@ -8,9 +8,10 @@ tags: 自剖
 
 
 <h6 style="text-align:center">
+<br>
 
 急功近利的心态<br><br>
 色厉内荏的自卑<br><br>
 浅尝辄止的态度</h6>
- 
+
  
