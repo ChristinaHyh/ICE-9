@@ -10,7 +10,8 @@ hidden: true
 
 ---
 
-<h5 style="text-align:center"><a href="https://www.bilibili.com/video/av92451511?from=search&seid=1094528721253603488">马军院士《浅谈研究生素质培养与科学研究方法》</a>有感</h5>
+<h5 style="text-align:center"><a href="https://www.bilibili.com/video/av92451511?from=search&seid=1094528721253603488">马院士《浅谈研究生素质培养与科学研究方法》</a>有感</h5>
+
 ---
 
 
