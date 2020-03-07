@@ -98,9 +98,9 @@ tags: TOOLS
 
 ### 2020-03-07更新
 
-由于2020.02后，Anki 2.1版本以下的数据不能同步到Anki Web上了，本教程中使用的是Anki 2.0及对应版本的AnkiConnect，这里更新一下支持Anki2.1的AnkiConnect的安装，详细见[官网文档](https://ankiweb.net/shared/info/2055492159)
+由于2020.02后，PC端Anki 2.1版本以下的数据不能同步到Anki Web上了，本教程中使用的是Anki 2.0及对应版本的AnkiConnect，这里更新一下支持Anki2.1的AnkiConnect的安装，详细见[官网文档](https://ankiweb.net/shared/info/2055492159)
 
-安装Anki PC版 2.1.x ( [下载地址](https://apps.ankiweb.net/) | [直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/anki-2.1.exe) )
+Anki 2.1 | [下载地址](https://apps.ankiweb.net/) | [直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/anki-2.1.exe) 
 
 打开Anki，点击“工具”→“附加组件”→“获取插件”，在“代码”一栏输入`2055492159`后，点击ok即可安装AnkiConnect，待安装完成后，重启Anki，配置及使用方法不变。
 
