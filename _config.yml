@@ -10,8 +10,8 @@ baseurl: ''
 # Navigation links
 nav:
   home: '/'
-  about: '/about/'
-  tags: '/tags/'
+  about: '/about'
+  tags: '/tags'
 #  Cat's Cradle: 'https://huangyahui.com'
 
 # Footer
@@ -93,7 +93,7 @@ RSS: false
 
 # Permalink
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:title/
+permalink: /:title
 
 # Plugins
 # plugins: [jekyll-paginate]
