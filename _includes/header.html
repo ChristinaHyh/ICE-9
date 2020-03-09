@@ -5,11 +5,18 @@
     </div>
     -->
     <div class="g-logo">
-         {% if page.lang %}
+         {% case page.url %}
+         {% when "/tags" %}
+             <a href="https://en.hyahui.com{{page.url}}"></a>
+         {% when "/about" %}
              <a href="https://en.hyahui.com{{page.url}}"></a>
          {% else %}
-             <a href="https://en.hyahui.com"></a>
-         {% endif %}
+             {% if page.lang %}
+                 <a href="https://en.hyahui.com{{page.url}}"></a>
+             {% else %}
+                 <a href="https://en.hyahui.com"></a>
+             {% endif %}
+         {% endcase %}
     </div>
 
     <i id="menu-toggle" class="iconfont icon-menu"></i>
