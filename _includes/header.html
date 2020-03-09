@@ -5,10 +5,9 @@
     </div>
     -->
     <div class="g-logo">
-         {% case page.url %}
-         {% when '/tags' %}
+         {% if page.url == "/tags" %}
              <a href="https://en.hyahui.com{{page.url}}"></a>
-         {% when '/about' %}
+         {% elsif page.url == "/about" %}
              <a href="https://en.hyahui.com{{page.url}}"></a>
          {% else %}
              {% if page.lang %}
@@ -16,7 +15,7 @@
              {% else %}
                  <a href="https://en.hyahui.com"></a>
              {% endif %}
-         {% endcase %}
+         {% endif %}
     </div>
 
     <i id="menu-toggle" class="iconfont icon-menu"></i>
