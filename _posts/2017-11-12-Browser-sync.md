@@ -4,7 +4,7 @@ title: '使用Browser-sync'
 date: 2017-11-12
 author: Christina
 lang: cn
-tags: TOOLS
+tags: 工具
 ---
 
 ---

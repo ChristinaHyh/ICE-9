@@ -2,7 +2,7 @@
 title: Jekyll部署Netlify CMS
 subtitle: 轻松管理你的博客
 author: Christina
-tags: TOOLS
+tags: 工具
 date: '2019-04-29'
 layout: post
 ---

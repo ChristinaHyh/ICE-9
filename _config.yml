@@ -9,9 +9,9 @@ baseurl: ''
 
 # Navigation links
 nav:
-  home: '/'
-  about: '/about'
-  tags: '/tags'
+  主页: '/'
+  关于: '/about'
+  标签: '/tags'
 #  Cat's Cradle: 'https://huangyahui.com'
 
 # Footer

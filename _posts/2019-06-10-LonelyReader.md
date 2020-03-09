@@ -5,7 +5,7 @@ date: 2019-06-10
 author: Christina
 subtitle: “睁一只眼，洞穿世事，闭一只眼，自由梦想。”
 permalink: /:year/:month/:day/:title.html
-tags: LONELYREADER
+tags: 孤阅
 ---
 
 ---

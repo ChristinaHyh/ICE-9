@@ -4,7 +4,7 @@ title: '澈如孩童'
 date: 2018-07-05
 author: Christina
 subtitle: 《志在摩登》(CHASING THE MODERN) 徐善曾著
-tags: READER
+tags: 读者
 ---
 
 胡适曾这样评价过徐志摩：“他的一生真是一种单纯的信仰，这里面有三个（英文）字：一个是爱，一个是自由，一个是美。”我不知道为何徐志摩如此吸引我，也许我也犯了和作者徐善曾先生一样好奇，为什么徐志摩如此吸引人？甚至是百年之后的我们？
@@ -24,4 +24,4 @@ tags: READER
 
 <h6 style="text-align:right">二〇一八年七月五日<br>
     于北京</h6>
-    
+​    

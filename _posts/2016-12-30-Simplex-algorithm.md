@@ -3,7 +3,7 @@ layout: post
 title: '单纯形法'
 date: 2016-12-30
 author: Christina
-tags: ALGORITHM
+tags: 算法
 ---
 
 ---

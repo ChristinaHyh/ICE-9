@@ -3,7 +3,7 @@ layout: post
 title: 'PDF.js+Chrome+Anki=任性学习专业英语'
 date: 2019-02-27
 author: Christina
-tags: TOOLS
+tags: 工具
 ---
 
 ---

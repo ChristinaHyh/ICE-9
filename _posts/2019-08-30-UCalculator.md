@@ -4,7 +4,7 @@ title: 'UCalculator'
 subtitle: 不确定度计算器——解决理工科生的日常烦恼
 date: 2019-08-30
 author: Christina
-tags: TOOLS
+tags: 工具
 ---
 
 ---

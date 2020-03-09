@@ -4,7 +4,7 @@ title: '原则'
 date: 2019-09-25
 author: Christina
 subtitle: 《原则》（PRINCIPLES） 瑞·达利欧著
-tags: READER
+tags: 读者
 ---
 
 “愚人”，这个词如此真实，真实得我看到了这就是我。
