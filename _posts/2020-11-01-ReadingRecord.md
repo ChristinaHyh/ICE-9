@@ -1,5 +1,6 @@
 ---
 title: 读书记录
+subtitle: "Sapere Aude, quia Veritas Vos Liberabit"
 author: Christina
 tags: 读者
 date: 2020-11-01
@@ -16,7 +17,7 @@ layout: post
 
 那么，就重新开始这样的记录吧。
 
-——写于再观《末代皇帝》（*The Last Emperor*）的秋夜，于北京怀柔。
+——写于再观《末代皇帝》（*The Last Emperor*）的秋夜，再求学于北京，怀柔。
 
 - - -
 
