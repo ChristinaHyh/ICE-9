@@ -21,4 +21,5 @@ layout: post
 
 - - -
 
-* 《西方文明简史》（Western Civilization: A Brief History） Jackson J. Spielvogel
+* 《西方文明简史》（Western Civilization: A Brief History） Jackson J. Spielvogel [在读]
+* 《1840年以来的中国》 王人博 [在读]
