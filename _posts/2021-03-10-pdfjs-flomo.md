@@ -10,11 +10,11 @@ subtitle: 你的灵感碎片宫殿
 
 
 ---
-### **前言**
+## **前言**
 
 工科科研党在读文献时，总有这么一个问题，读过不记笔记就容易忘，而很多时候，这些读过的文献都有可能是科研idea的源泉，但是传统的在pdf上高亮批注的做笔记方式虽然能防止灵感溜走，但是也有一些不便，比如分类整合问题，回顾翻阅不集中等，于是在[flomo](https://flomoapp.com)这个强大的记录想法川流工具的帮助下，我能够分类整理阅读文献的灵感碎片，还能回顾与整合这些闪光点，本文是我初步使用flomo用于自己学术需求的一些札记与分享。
 
-### **工具**
+## **工具**
 
 * Chrome ([下载地址](https://www.google.com/chrome/)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/chrome.exe))
 * PDF.js ([下载地址](https://mozilla.github.io/pdf.js/)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/pdfjs.zip))
@@ -22,11 +22,11 @@ subtitle: 你的灵感碎片宫殿
   * flomoplus：([下载地址](https://chrome.google.com/webstore/detail/flomoplus/kcijjmomofpdcpeiagibojhjifhegepj)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/flomo/flomoplus.crx))
   * flomo API：([下载地址](https://chrome.google.com/webstore/detail/flomo-api/bliaamgfpeogldcelkmkegfofapaocfn)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/flomo/flomoapi.crx))
 
-### **安装**
+## **安装与使用**
 
-### 1. 安装Chrome
+##### 1. 安装Chrome
 
-### 2. 安装flomo的chrome插件
+##### 2. 安装flomo的chrome插件
 
 打开扩展程序，勾选“开发者模式”
       
@@ -42,7 +42,7 @@ flomoplus适合那些在微信读书、得到等平台电子书笔记汇入flomo
 
 个人更喜欢flomoapi
 
-### 3.  探索flomo，并获得api
+##### 3.  探索flomo，并获得api
 
 [flomo官网](https://flomoapp.com/)
 
@@ -52,7 +52,7 @@ flomo公众号：flomoapp
 
 ![](/assets/img/flomoapi.png)
 
-### 4. 添加api至插件
+##### 4. 添加api至插件
 
 **flomo API**
 
@@ -70,13 +70,13 @@ flomo公众号：flomoapp
       
 ![](/assets/img/flomoplus-saveapi.png)        
 
-### 6.  安装PDF.js
+##### 6.  安装PDF.js
 
 解压pdfjs.zip，用chrome浏览器打开/pdfjs-2.0.943-dist/web/viewer.html，点击下图按钮打开本地pdf
 
 ![](/assets/img/j.png)
 
-### 7. 我是如此这般地使用（flomo API）
+##### 7. 我是如此这般地使用（flomo API）
 
 用pdfjs优雅地打开文献，发现对自己有用的小闪光，点击flomo api插件的小浮窗，不知不觉地保存了一条笔记，抓住脑子一闪而过的灵感，在flomo后台写下此时的想法，备注标签，文献来源，保存。在某个呆滞还未入睡的夜晚，用手机打开app flomo，随机漫步那些曾经的读过的文献和idea，思考、回顾、发光，当这些想法凝聚到某个程度，便把零碎的闪光点，整合成一个个小灯泡，写论文的时候，随需取用
 
