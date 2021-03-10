@@ -24,9 +24,9 @@ subtitle: 你的灵感碎片宫殿
 
 ## **安装与使用**
 
-##### 1. 安装Chrome
+### 1. 安装Chrome
 
-##### 2. 安装flomo的chrome插件
+### 2. 安装flomo的chrome插件
 
 打开扩展程序，勾选“开发者模式”
       
@@ -42,7 +42,7 @@ flomoplus适合那些在微信读书、得到等平台电子书笔记汇入flomo
 
 个人更喜欢flomoapi
 
-##### 3.  探索flomo，并获得api
+### 3.  探索flomo，并获得api
 
 [flomo官网](https://flomoapp.com/)
 
@@ -52,7 +52,7 @@ flomo公众号：flomoapp
 
 ![](/assets/img/flomoapi.png)
 
-##### 4. 添加api至插件
+### 4. 添加api至插件
 
 **flomo API**
 
@@ -70,13 +70,13 @@ flomo公众号：flomoapp
       
 ![](/assets/img/flomoplus-saveapi.png)        
 
-##### 6.  安装PDF.js
+### 6.  安装PDF.js
 
 解压pdfjs.zip，用chrome浏览器打开/pdfjs-2.0.943-dist/web/viewer.html，点击下图按钮打开本地pdf
 
 ![](/assets/img/j.png)
 
-##### 7. 我是如此这般地使用（flomo API）
+### 7. 我是如此这般地使用（flomo API）
 
 用pdfjs优雅地打开文献，发现对自己有用的小闪光，点击flomo api插件的小浮窗，不知不觉地保存了一条笔记，抓住脑子一闪而过的灵感，在flomo后台写下此时的想法，备注标签，文献来源，保存。在某个呆滞还未入睡的夜晚，用手机打开app flomo，随机漫步那些曾经的读过的文献和idea，思考、回顾、发光，当这些想法凝聚到某个程度，便把零碎的闪光点，整合成一个个小灯泡，写论文的时候，随需取用
 
