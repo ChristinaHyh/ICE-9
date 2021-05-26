@@ -18,10 +18,10 @@ subtitle: 任性学习专业英语
 
 ### **工具**
 
-* Chrome([下载地址](https://www.google.com/chrome/)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/chrome.exe)) — 更新于2021.03.10
+* Chrome([下载地址](https://www.google.com/chrome/)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/chrome.exe)) 
 * Anki PC版([下载地址](https://apps.ankiweb.net/)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/anki-2.0.exe))
 * Anki Android版(自行各大应用市场下载)
-* 在线词典助手插件([下载地址](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb?hl=zh-CN)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/dic.crx)) —更新于2021.03.10
+* 在线词典助手插件([下载地址](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb?hl=zh-CN)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/dic.crx)) 
 * Anki-connect([下载地址](https://github.com/FooSoft/anki-connect)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/ankiconnect.zip))
 * PDF.js([下载地址](https://mozilla.github.io/pdf.js/)丨[直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/pdfjs.zip))
 * Anki卡片模版([直接下载](https://github.com/ChristinaHyh/ICE-9/releases/download/1.0/anki.apkg))
