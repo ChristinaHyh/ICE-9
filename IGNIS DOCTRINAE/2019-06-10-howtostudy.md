@@ -1,6 +1,6 @@
 ---
 layout: Boruto
-title: '程序类工具'
+title: '如何学习'
 author: Christina
 date: 2019-06-10
 permalink: howtostudy.html
