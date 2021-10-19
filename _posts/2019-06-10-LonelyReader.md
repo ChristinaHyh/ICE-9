@@ -22,3 +22,6 @@ tags: 孤阅
 ### [1.2.1逻辑思辨力](https://hyahui.com/logicalthinking.html)
 
 ### 1.2.2深度分析力
+
+## [1.3如何学习](https://hyahui.com/howtostudy.html)
+
