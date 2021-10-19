@@ -3,7 +3,7 @@ layout: Boruto
 title: '程序类工具'
 author: Christina
 date: 2019-06-10
-permalink: study.html
+permalink: howtostudy.html
 hidden: true
 
 ---
