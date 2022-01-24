@@ -22,7 +22,7 @@ tags: 机器
 ------
 <h3 id="model"> 常用模块<h3>
 
-```python
+```
 # 科学计算模块
 import numpy as np
 import pandas as pd
@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 
 <h3 id="linalg"> 矩阵的基本运算 <h3>
 
- ```shell
+ ```
     # uname -i  //查看你的Linux多少位  
     x86_64  //64位
     
