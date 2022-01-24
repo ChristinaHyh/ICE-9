@@ -39,8 +39,10 @@
 
     <article class="markdown-body">
       <hr></hr>
-          <h2 style="">目录</h2>  
-          {% include toc.html html=content %}
+          <h2 style="">目录</h2>
+          <div style="list-style-type: none">
+             <h3 class="post-subtitle">{% include toc.html html=content %}</h3>
+          </div>
       <hr></hr>
       {{ page.content }}
     </article>
