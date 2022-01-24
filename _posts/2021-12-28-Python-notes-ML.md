@@ -1,5 +1,5 @@
 ---
-layout: posttoc
+layout: post-toc
 title: '简明Python手册：机器学习实战应用'
 date: 2021-12-28
 author: Christina
