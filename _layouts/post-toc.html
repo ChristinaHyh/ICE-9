@@ -38,6 +38,14 @@
     {% endif %}
 
     <article class="markdown-body">
+      <div class="toc">
+        <div class="title">目录</div>
+        <div class="content">{% include toc.html html=content %}</div>
+      </div>
+      <div class="toc-mobile">
+          <nav class="title" onclick="javascript:document.getElementById('toc_mobile_content').classList.toggle('show');">目录</nav>
+          <div class="content" id="toc_mobile_content" onclick="javascript:document.getElementById('toc_mobile_content').classList.toggle('show');">{% include toc.html html=content %}</div>
+      </div>
       {{ page.content }}
     </article>
 
