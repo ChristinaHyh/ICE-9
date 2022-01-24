@@ -1,6 +1,6 @@
 ---
-layout: post-tocc
-title: '简明Python手册'
+layout: post-toc
+title: 'Python测试'
 date: 2022-01-24
 author: Christina
 lang: cn
@@ -13,6 +13,8 @@ tags: 机器
 
 ------
 ## 常用模块
+
+### cc
 
 ```python
 # 科学计算模块
