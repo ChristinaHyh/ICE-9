@@ -38,12 +38,12 @@
     {% endif %}
 
     <article class="markdown-body">
-      <hr></hr>
-          <h2 style="">目录</h2>
           <div style="list-style-type: none">
-             <h3 class="post-subtitle">{% include toc.html html=content %}</h3>
+             <h3 class="post-subtitle">
+                <div>目录</div>
+                {% include toc.html html=content %}
+             </h3>
           </div>
-      <hr></hr>
       {{ page.content }}
     </article>
 
