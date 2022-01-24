@@ -1,7 +1,7 @@
 ---
 layout: post-tocc
-title: '简明Python手册：机器学习实战应用'
-date: 2021-01-24
+title: '简明Python手册'
+date: 2022-01-24
 author: Christina
 lang: cn
 tags: 机器

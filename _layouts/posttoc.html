@@ -38,7 +38,7 @@
     {% endif %}
 
     <article class="markdown-body">
-      {% include toc.html html=content %}
+      <h2 class="post-subtitle">{% include toc.html html=content %}</h2>
       {{ page.content }}
     </article>
 
