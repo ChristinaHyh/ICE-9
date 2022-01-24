@@ -9,18 +9,12 @@ tags: 机器
 
 ---
 
-## 目录
-
-<a href="#model">常用模块</a>
-
-<a href="#dataload">数据读取</a>
-
-<a href="#linalg">矩阵的基本运算</a>
+[TOC]
 
 
 
 ------
-<h3 id="model"> 常用模块<h3>
+## 常用模块
 
 ```python
 # 科学计算模块
@@ -32,10 +26,8 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 ```
 
+## 矩阵的基本运算
 
-
-
-<h3 id="linalg"> 矩阵的基本运算 <h3>
 
  ```shell
     # uname -i  //查看你的Linux多少位  
