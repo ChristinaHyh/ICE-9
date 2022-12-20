@@ -1,7 +1,7 @@
 ---
 layout: post-toc
-title: '简明Python手册：机器学习实战应用'
-date: 2021-12-28
+title: '可解释的机器学习'
+date: 2022-11-22
 author: Christina
 lang: cn
 tags: 机器
