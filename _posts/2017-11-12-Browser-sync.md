@@ -3,6 +3,7 @@ layout: post
 title: '使用Browser-sync'
 date: 2017-11-12
 author: Christina
+subtitle: 省时的浏览器同步测试工具
 lang: cn
 tags: 工具
 ---
@@ -38,5 +39,4 @@ Chrome不是默认浏览器：
 <pre><code class="language-css">ctrl+c</code></pre>
 
 ![](/assets/img/browser-sync.png)
-
 

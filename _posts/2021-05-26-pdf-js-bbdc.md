@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'PDF.js+Chrome+不背单词=懒人构建语境库'
+title: 'PDF.js+Chrome+不背单词=构建懒人语境库'
 date: 2021-05-26
 author: Christina
 tags: 工具
-subtitle: 真懒噢~
+subtitle: 低门槛语境划词流
 
 ---
 
@@ -64,7 +64,6 @@ subtitle: 真懒噢~
 ![](/assets/img/bbdcuse.png)
 
 ---
-
 
 
 

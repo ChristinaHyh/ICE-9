@@ -1,10 +1,9 @@
 ---
-layout: Boruto
+layout: post
 title: '逻辑思辨力'
 author: Christina
 date: 2019-11-17
-permalink: logicalthinking.html
-hidden: true
+tags: 孤阅
 
 ---
 
