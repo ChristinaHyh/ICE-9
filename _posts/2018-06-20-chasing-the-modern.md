@@ -3,6 +3,7 @@ layout: post
 title: '追光'
 date: 2018-06-20
 author: Christina
+lang: cn
 cover: '/assets/img/modern.jpg'
 tags: 猛虎与蔷薇
 ---
