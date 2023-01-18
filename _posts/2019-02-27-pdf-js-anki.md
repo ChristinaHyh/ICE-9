@@ -3,6 +3,7 @@ layout: post
 title: 'PDF.js+Chrome+Anki=构建语境习词库'
 date: 2019-02-27
 author: Christina
+lang: cn
 tags: 工具
 subtitle: 任性学习专业英语
 
@@ -111,5 +112,4 @@ Anki 2.1 | [下载地址](https://apps.ankiweb.net/) | [直接下载](https://gi
 ![](/assets/img/2020-03-07_193146.png)
 
 ![](/assets/img/2020-03-07_193250.png)
-
 

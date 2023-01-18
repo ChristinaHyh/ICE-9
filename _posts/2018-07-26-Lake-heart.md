@@ -3,6 +3,7 @@ layout: post
 title: '湖心' 
 date: 2018-07-26
 author: Christina
+lang: cn
 cover: '/assets/img/lakecenter.jpg'
 tags: 猛虎与蔷薇
 ---
