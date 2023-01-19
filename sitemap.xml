@@ -9,193 +9,133 @@
 
 <url>
   <loc>https://hyahui.com/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/about/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/about</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/tags/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/tags</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Principles/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/BuildingCKS</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/UCalculator/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/pdf-js-bbdc</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/FACTFULNESS/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/pdfjs-flomo</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hyahui.com/page2/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Benny/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/Pi</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Pi/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/somuch</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Simples-algorithm/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/Paranoid</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/somuch/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/Lake-heart</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Paranoid/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/chasing-the-modern</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Lake-heart/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/Moment</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/chasing-the-modern/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/wo-yu-wi</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Moment/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/hug</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/wo-yu-wi/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/UCalculator</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/hug/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/jekyll-netlify-cms</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/jekyll-netlify-cms/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/pdf-js-anki</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/pdf-js-anki/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/Browser-sync</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Browser-sync/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/logicalthinking</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/Written-in-2019/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/howtoread</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hyahui.com/ADDICT/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Written-in-2018/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Encourage/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Principle/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/CentOS7.2-LAMP/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Utopian-traveller/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Period-shaping-personality/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Pure-as-a-child/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/Ghost-ssl/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/2019/06/10/LonelyReader.html</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <loc>https://hyahui.com/AlternativeThinking</loc>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hyahui.com/page3/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hyahui.com/page4/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://hyahui.com/page5/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://hyahui.com/page6/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
+  <lastmod>2023-01-19T05:12:10+00:00</lastmod>
   <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/page7/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/page8/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://hyahui.com/page9/</loc>
-  <lastmod>2020-01-03T03:01:01+00:00</lastmod>
-  <priority>0.17</priority>
 </url>
 
 
