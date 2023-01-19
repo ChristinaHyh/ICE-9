@@ -3,7 +3,6 @@ layout: post
 title: '构建特色知识结构'
 date: 2023-01-16
 author: Christina
-lang: cn
 tags: 工具
 subtitle: 链接你的数据库与第二大脑
 ---
