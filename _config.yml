@@ -58,9 +58,9 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   # weibo: '//weibo.com/'
-  # instagram: '//www.instagram.com/'
+    instagram: '//www.instagram.com/hyhchristina'
   # github: '//github.com/'
-  facebook: '//www.facebook.com/christina.hyh'
+  # facebook: '//www.facebook.com/christina.hyh'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
