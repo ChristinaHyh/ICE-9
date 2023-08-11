@@ -1,10 +1,10 @@
 ---
-layout: post-toc
+layout: post
 title: 'Obsidian+Zotero助力科研'
 date: 2023-04-23
 author: Christina
 tags: 工具
-subtitle: 学术垃圾工具多
+subtitle: 研究生的自我修养
 
 ---
 
@@ -27,7 +27,7 @@ subtitle: 学术垃圾工具多
 
 这篇POST介绍的是如何使用Obsidian和Zotero联动管理学术文献与笔记，以及研究生的自我修养工作流，我会在自己的不断测评调整中慢慢完善它，主要内容包括：
 
-- 个人知识管理库的构建
+- [个人知识管理库的构建](https://hyahui.com/ob-for-research#%E5%89%8D%E8%A8%80)
   - 基于「大脑外延」思想的**专业特色知识结构库**构建
   - Obsidian与Zotero联动配制与使用
   - Ob与Zotero插件推荐
@@ -42,7 +42,7 @@ subtitle: 学术垃圾工具多
   - 构建特色的专业知识结构
   - ……
 
-
+---
 
 ## 个人知识管理库的构建
 
