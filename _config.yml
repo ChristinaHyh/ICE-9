@@ -12,7 +12,9 @@ nav:
   主页: '/'
   关于: '/about'
   标签: '/tags'
-#  Cat's Cradle: 'https://huangyahui.com'
+  ∞: 'https://huangyahui.com'
+
+# Cat's Cradle: 'https://huangyahui.com'
 
 # Footer
 footer:
