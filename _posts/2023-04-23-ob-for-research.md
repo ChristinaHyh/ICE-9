@@ -135,7 +135,7 @@ subtitle: 研究生的自我修养
 
 这里是一个可以专心与安静工作的地方，包括指南方法、研究方案和论文草稿，研究方案和论文草稿我设置了便捷按钮，可点击侧栏按钮直接根据模板创建笔记（模板在库房的Templates）。指南方法我常用于存放检测方法、仪器使用方法等。
 
-在OFR库的右上侧栏有一个日历板块，单机相应的日期可以创建日记，也许你会想把日记存放在书房，所以我把日记位置的设置方法放在了这里：
+在OFR库的右上侧栏有一个日历板块，单击相应的日期可以创建日记，也许你会想把日记存放在书房，所以我把日记位置的设置方法放在了这里：
 
 ![](/assets/img/2023-12-20_223557.jpg)     
 
@@ -190,41 +190,41 @@ subtitle: 研究生的自我修养
 
 - zotero基础设置：菜单栏「编辑」→「首选项」，设置zotero数据与pdf文件存储位置，在本Ob for Research库，pdf储存在`X:\…\Ob for Research\Literature-文献库\pdfs`
 
-  ![](/assets/img/zotero-1.png)      
+  ![](/assets/img/zotero-1.jpg)      
   
-  ![](/assets/img/zotero-2.png)  
+  ![](/assets/img/zotero-2.jpg)  
   
 - 安装zotero插件：菜单栏「工具」→「附加组件」，选择上述下载的zotero插件（*.xpi）进行安装
 
-  ![](/assets/img/zotero-3.png) 
+  ![](/assets/img/zotero-3.jpg) 
 
 - 插件设置：
 
   - Zotfile：「工具」→「ZotFile Preference」，实现在zotero条目中右键选择`Attach New File`后将桌面的pdf文件重命名并移动到ob库的指定文件夹下，以下为我的配置，其中Renaming Rules可参考[官方文档](http://zotfile.com/#renaming-rules)根据自己的喜好修改
 
-    ![](/assets/img/zotero-4.png) 
+    ![](/assets/img/zotero-4.jpg) 
 
-    ![](/assets/img/zotero-5.png) 
+    ![](/assets/img/zotero-5.jpg) 
 
-    ![](/assets/img/zotero-6.png) 
+    ![](/assets/img/zotero-6.jpg) 
 
   - Mdnotes：「工具」→「Mdnotes首选项 」，实现在zotero条目中右键选择Mdnotes→创建Mdenotes文件后在ob库指定位置创建笔记，以下是我的配置，供参考
 
-    ![](/assets/img/zotero-7.png) 
+    ![](/assets/img/zotero-7.jpg) 
 
-    ![](/assets/img/zotero-8.png) 
+    ![](/assets/img/zotero-8.jpg) 
 
   - Better Bibtex：「工具」→「Better BibTex 」→「打开Better BibTex 首选项」，自动创建zotero与ob联动的citation key，也可在ob中使用`[[citation key]]`实现笔记直接的相互引用
 
-    ![](/assets/img/zotero-9.png) 
+    ![](/assets/img/zotero-9.jpg) 
 
-    ![](/assets/img/zotero-10.png) 
+    ![](/assets/img/zotero-10.jpg) 
 
 - 导出文献库到ob库
 
   - 右键「我的文库」→「导出文献库 」，选择「Better BibLaTeX 」格式并勾选「保持更新」，点击确定后将导出的文件命名为`My-Literature-Library.bib`保存到`X:\…\Ob for Research\Warehouse-库房\Scripts`中
 
-    ![](/assets/img/zotero-11.png) 
+    ![](/assets/img/zotero-11.jpg) 
 
 
 至此，zotero与obsidian的联动配置就完成了
@@ -233,19 +233,19 @@ subtitle: 研究生的自我修养
 
 - 选择筛选后需要入库的文献，填写DOI添加条目，也可使用zotero的chrome插件直接一键添加
 
-  ![](/assets/img/zotero-12.png) 
+  ![](/assets/img/zotero-12.jpg) 
 
 - 下载文献原文pdf保存在桌面后，在新增条目右键选择`Attach New File`，此时会弹窗让你确认是否将pdf文件重命名并保存到指定文件夹，一般会默认选择最新保存到桌面的pdf文件，注意要避免在其他软件打开该pdf文件以避免重命名与移动文件不成功。根据个人习惯也可使用zotero插件[zotero-scihub](https://github.com/ethanwillis/zotero-scihub)实现自动下载pdf文件
 
-  ![](/assets/img/zotero-13.png) 
+  ![](/assets/img/zotero-13.jpg) 
 
 - 选择需要做笔记的条目创建笔记到ob库
 
-  ![](/assets/img/zotero-14.png) 
+  ![](/assets/img/zotero-14.jpg) 
 
 - 固定citation key引用，固定后可以看到一个小图钉的图标，这一步骤是防止更改citation key后影响双链
 
-  ![](/assets/img/zotero-15.png) 
+  ![](/assets/img/zotero-15.jpg) 
 
 其他操作就是点点点，试试就知道了
 
