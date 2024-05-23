@@ -38,6 +38,7 @@ subtitle: 研究生的自我修养
 - [如何用此库为自己赋能](https://hyahui.com/ob-for-research#%E5%A6%82%E4%BD%95%E7%94%A8%E6%AD%A4%E5%BA%93%E4%B8%BA%E8%87%AA%E5%B7%B1%E8%B5%8B%E8%83%BD)
   - 提高学术写作精准用词能力
   - 构建特色的专业知识结构
+  - 期刊投稿格式切换不用愁
   - ……
 
 ---
@@ -66,12 +67,11 @@ subtitle: 研究生的自我修养
 2. 运转的逻辑：
    - Admin-速览/概念集 → 发散数据库（硬盘）：用于存放特色知识结构中涉及的关键概念
    - Admin-速览/任务版 → 放置盒（缓存）& 收敛数据库（算法）&  任务清单（执行程序）
-
-3. 方法论：目标设定与实现（待更）
-
+3. 方法论：目标设定与实现（此部分为我在Scott Young的[Make It Happen课程](https://www.make-it-happen-course.com/)的笔记总结）
 
 
-以下才是该库的使用说明书：
+
+以下是该库的使用说明书：
 
 ```
 ├─Admin-速览
@@ -219,6 +219,10 @@ subtitle: 研究生的自我修养
     ![](/assets/img/zotero-9.jpg) 
 
     ![](/assets/img/zotero-10.jpg) 
+    
+    【2024-01-18更新】
+    
+    去掉了含“[]”的命名，改为该配置：`auth + year + journal.abbr.prefix('-') + shorttitle(3,3).condense(_).prefix('-')`，目的是用markdown写完论文后，用pandoc将其转化为docx格式时，citation能正常导出。
 
 - 导出文献库到ob库
 
@@ -280,3 +284,9 @@ subtitle: 研究生的自我修养
 ---
 
 ## 如何用此库为自己赋能
+
+### 提高学术写作精准用词能力
+
+### 构建特色的专业知识结构
+
+### 期刊投稿格式切换不用愁
