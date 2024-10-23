@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'ICE-9 [神秘博士]'
+title: 'ICE-9'
 description: 'VENI VIDI VICI'
-keyword: 'ICE-9,huangyahui, Christina'
+keyword: 'ICE-9, huangyahui, Christina'
 url: 'https://hyahui.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
